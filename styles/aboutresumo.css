@@ -1,0 +1,25 @@
+#about-resumo {
+    display: flex;
+    margin-top: 20px;
+    background-color: rgb(252, 252, 252);
+    box-shadow: 1px 1px 5px #000;
+}
+
+#about-left p,
+#about-right p {
+    font-size: 1.8rem;
+    margin: 20px;
+}
+
+#about-left,
+#about-right{
+    margin: 20px;
+    background-color: #f1f1f100;
+    box-shadow: 1px 1px 5px #ccc;
+}
+
+
+.span-about {
+    color: #050a4d;
+    font-weight: 500;
+}

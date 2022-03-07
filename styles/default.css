@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;700&family=Montserrat:wght@400;500;600;700&display=swap");
+
+:root {
+    --color_0: rgb(0, 104, 173);
+    --leve: 300;
+    --normal: 400;
+    --medio: 500;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Fredoka', sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container{
+    margin: 0 auto;
+    width: 1100px;
+}

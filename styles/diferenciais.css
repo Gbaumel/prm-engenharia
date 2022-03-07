@@ -1,0 +1,46 @@
+#diferenciais {
+    background-color: #0057d4;
+    margin-top: 20px;
+    width: 100%;
+}
+
+#diferenciais h2{
+    text-shadow: 1px 5px 5px #000;
+    font-size: 4rem;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.diferencial {
+    padding: 10px;
+    margin: 20px;
+}
+
+.diferencial h4{
+    text-shadow: 1px 1px 5px #000;
+    color: white;
+    font-size: 2rem;
+    font-weight: 500;
+}
+.diferencial p{
+    color: rgb(233, 233, 233);
+    font-size: 1.9rem;
+    font-weight: 400;
+}
+#diferencial-cards {
+    display: flex;
+    padding: 30px;
+    width: 100%;
+}
+#diferencial-left p,
+#diferencial-right p {
+    font-size: 1.8rem;
+    margin: 20px;
+}
+
+#diferencial-left,
+#diferencial-right{
+    margin: 20px;
+    background-color: #f1f1f100;
+}
