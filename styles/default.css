@@ -14,9 +14,21 @@
   box-sizing: border-box;
   font-family: 'Fredoka', sans-serif;
 }
+body::-webkit-scrollbar {
+  width: 15px;               /* width of the entire scrollbar */
+}
 
+body::-webkit-scrollbar-track {
+  background: transparent;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #ccc;    /* color of the scroll thumb */
+  border-radius: 10px;
+}
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 .container{
